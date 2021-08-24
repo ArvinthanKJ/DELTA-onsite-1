@@ -214,8 +214,6 @@ let turn2 = () => {
   document.getElementById("right1").appendChild(p1);
 
   if (user_move == computer_move || score1 > score) {
-    var obj4 = document.getElementById("info");
-    if (obj4 != null) obj4.remove();
     var rem = document.getElementById("buttons");
     if (rem != null) rem.remove();
     var result = document.createElement("h2");
