@@ -120,5 +120,6 @@ let turn = () => {
     result.appendChild(result_txt);
     document.getElementById("result").appendChild(result);
   }
+  document.getElementById("current").innerHTML = "Current Score : " + score;
   console.log(score);
 };
