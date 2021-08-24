@@ -107,7 +107,7 @@ let turn = () => {
 
   var p1 = document.createElement("h2");
   p1.id = "turn1";
-  var txt1 = document.createTextNode("Computer plays: " + user_move);
+  var txt1 = document.createTextNode("User plays: " + user_move);
   p1.appendChild(txt1);
   document.getElementById("right1").appendChild(p1);
 
